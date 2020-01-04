@@ -1,0 +1,131 @@
+.footerArea{
+    background-image: url('/assets/images/footer/footer.jpg');
+    width:100%;
+    height: 90px;
+    display: none;
+}
+.footerArea .container{
+    background: unset;
+}
+.menu_footer{
+    color: white;
+    float: left;
+    text-align: center;
+    padding-top:30px;
+}
+
+
+div#centerDiv {
+    width: 100%;
+    text-align: left;
+    padding-top:30px;
+}
+ul.centerUL {
+    margin: 2px auto;
+    line-height: 1.4;
+    padding-left: 0;
+    color: white;
+}
+li.menuFooter{
+    padding-left:5px;
+    padding-right: 5px;
+}
+li.menuFooter:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.centerUL li {
+    display: inline;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .footerArea{
+        display: block;
+    }
+    li.menuFooter{
+        padding-left:5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .menu_footer{
+        font-size: 14px;
+    }
+    .menu1{
+       margin-right: 10px;
+    }
+    .menu2{
+        margin-right: 10px;
+    }
+    .menu3{
+        margin-right: 10px;
+    }
+    .menu4{
+        margin-right: 12px;
+    }
+    .menu5{
+        margin-right: 12px;
+    }
+    .menu6{
+        margin-right: 12px;
+    }
+    .menu7{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    li.menuFooter{
+        font-size: 1em;
+    }
+    .menu1{
+       margin-right: 20px;
+    }
+    .menu2{
+        margin-right: 20px;
+    }
+    .menu3{
+        margin-right: 20px;
+    }
+    .menu4{
+        margin-right: 20px;
+    }
+    .menu5{
+        margin-right: 20px;
+    }
+    .menu6{
+        margin-right: 20px;
+    }
+    .menu7{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+    li.menuFooter{
+        font-size: 1em;
+    }
+    .menu1{
+        margin-left: 25px;
+        margin-right: 40px;
+    }
+    .menu2{
+        margin-right: 40px;
+    }
+    .menu3{
+        margin-right: 40px;
+    }
+    .menu4{
+        margin-right: 40px;
+    }
+    .menu5{
+        margin-right: 40px;
+    }
+    .menu6{
+        margin-right: 30px;
+    }
+    .menu7{
+        margin-right: 30px;
+    }
+}
